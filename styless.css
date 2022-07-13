@@ -1,0 +1,400 @@
+
+*{font-family: 'Roboto', sans-serif;}
+body{
+    background-color:rgb(222, 232, 241);
+}
+
+.logo{
+     color:black;
+	background-image: linear-gradient(to bottom,aliceblue, cornflowerblue);
+    padding: 1px;
+    margin: 1px;
+    border-radius: 4px;
+    border: 1px solid  ;
+    /* opacity: 0.3; */
+    }
+div h1{
+    text-align: left;
+    font-size: 40px;
+    padding: 0;
+    margin: 0;
+    text-shadow: 5px 2px 2px rgba(900,900,900,0.5);
+    }
+div h4{
+    text-align:right;
+    font-size:1.3rem;
+    padding: 0; 
+    margin: 0;
+    color: rgb(200,200,200);
+    } 
+p {
+    padding: 10px;
+    margin: 10px;
+    }       
+p a{
+    color: #fff;
+    float: right;
+    padding-right: 50px;
+    font-size: 1.4em;
+    display: block;
+    padding: 0rem 0.1rem;
+    transition: all 0.6s linear;
+    border-radius: 5px;
+    text-decoration: none; 
+    }    
+p a:hover{
+    color:deepskyblue;
+    }  
+
+.enunciados{
+    padding: 20px;
+    font-style: italic; 
+    color:darkolivegreen;
+    letter-spacing: 3px;  
+    }  
+.fechas{
+    background-color: #222;
+    color: #fff;
+    font-size: 1.2em;
+    text-align: center;
+    padding: 10px 0;
+    margin: 10px 1px;
+    border-radius: 4px;   
+    }
+.titulo{
+    text-align: center;
+    font-style: oblique; 
+    color: darkslategray;
+    letter-spacing: 5px;
+    }  
+.notas{
+    background-color: aliceblue;
+    padding: 10px;
+    margin-left: 0;
+    margin-right: 0;
+    border: 0.5px solid;
+    border-radius: 4px;
+    }
+.parrafo02{          
+    font-size: 1rem;
+    background-color:#fff;
+    padding: 5px;
+    color:white; 
+    border: 1px solid black;
+    border-radius: 5px;
+    transition: 0.3s;
+    } 
+.parrafo02:hover{
+    padding: 8px;
+    border: 1px solid cornflowerblue;
+    }                       
+img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    }
+.container {
+    width: 100%;  
+    }
+div.container {
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    }
+
+/* Inicio barra */
+.encabezado{
+    background-color:/*#666*/ rgba(0,0,0,0);
+    border-radius: 4px;
+    margin:5px;
+               }
+
+ul{
+    padding: 0 1px;
+}         
+/* Esto deja sin margen tooodo  */
+.encabezado nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px;
+    
+}
+.encabezado nav ul{
+    list-style: none;
+    display: flex;
+     /*justify-content: space-between;*/ 
+   
+   
+    
+}
+.barra{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    padding: 10px 5px; 
+    
+    /*display: block;*/  
+     
+ } 
+a:hover{
+    background-color:rgba(117, 116, 116, 0.5) ;
+   
+} 
+.encabezado nav  ul li ul{
+    display: flex;
+    flex-direction: column;
+   
+    
+} 
+.encabezado nav  ul li ul{
+    position: absolute;
+    background-color:/*#666*/rgba(100, 149, 237,0.7);
+    border-radius: 4px;
+    /* border: 1px solid  #222; */
+    
+    
+}
+
+
+.encabezado nav  ul li ul li{
+     /*width: 180px;*/ 
+    position: relative;
+}
+.encabezado nav  ul li ul li ul{
+    top: 0;
+    left: 103px;
+    position: absolute;
+}
+.encabezado nav ul li ul{
+    display: none;
+}
+.encabezado nav ul li:hover>ul{
+    display: block;
+    
+}
+/* .encabezado{
+    position: fixed;
+    left: 0;
+    top: 0;
+    
+    width: 100%;
+} */
+
+
+
+
+ nav ul li a{
+     display: block;
+     padding: 0rem 0.1rem;
+     transition: all 0.6s linear;
+     border-radius: 4px;
+}
+
+nav ul li a:hover{
+    background-color: /*#222*/rgba(100, 149, 237);
+    
+}
+/* .encabezado nav ul li a{
+    padding: 0 0.5em;
+}  */
+
+
+
+/* fin barra */
+
+
+
+
+
+/* INICIO FOOTER */
+footer{
+    
+    font-size: 15px;
+    text-align: center;
+    background-color: #222;
+    padding:  3rem 0;
+   
+      }
+footer a{
+    transition:color 0.3s ease;
+    color: #fff;
+    text-decoration: none;
+        }
+footer a{
+    display: block;
+    padding: 0rem 0.1rem;
+    transition: all 0.6s linear;
+    border-radius: 5px;
+}        
+footer a:hover{
+    color:deepskyblue;
+        }      
+.izquierda{
+    float: left;
+    padding-left: 20px;    
+          }
+.derecha{
+    float: right;
+    padding-right: 20px;   
+        }  
+/* FIN DE FOOTER */
+
+.container{
+    font-size: 15px;
+    text-align: center;
+    
+    /* padding:  3rem 0; */
+    
+      }
+
+.container a{
+    transition:color 0.3s ease;
+    color: darkslategray;
+    text-decoration: none;
+        }
+.container a{
+    display: block;
+    padding: 0rem 0.1rem;
+    transition: all 0.6s linear;
+    border-radius: 5px;
+}        
+.container a:hover{
+    color:deepskyblue;
+        }      
+
+
+        /* calendarios */
+        .grid{
+            color:black;
+            background-color: darkgray;
+            padding: 1px;
+            margin: 1px;
+            border-radius: 4px;
+            border: 1px solid;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+                    }
+
+        #dias-sin{
+            text-align: center;
+            border: 1px solid black;
+            font-size: 2.2rem;
+            border-radius: 4px;
+            background-color:#fff;
+            margin: 1px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+
+        #dias-con{
+            text-align: center;
+            border: 1px solid black;
+            font-size: 2.2rem;
+            border-radius: 4px;
+            background-color: rgba(160, 200, 250);
+            /* background-color: rgb(160, 200, 250); */
+            margin: 1px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            transition: 0.3s;
+        }
+
+        #dias-con:hover{
+            /* transform: scale(1.05, 1.05);
+            background-color: ; */
+            border: 1px solid rgba(160, 200, 250, 0.9);
+            
+
+        }
+        .semana{
+            text-align: center;
+            margin-bottom: 10px;
+            font-weight: 900;
+            
+            
+        }
+       .grid a{
+          color: white;
+          text-decoration: none;
+          background-color: rgba(160, 200, 250, 0);
+          
+       }
+
+        
+
+       /* Boton arriba */
+       #button-up{
+        width: 60px;
+        height: 60px;
+        background: rgba(0,0,255,0.5);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        border-radius: 50%;
+        font-size: 20px;
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        cursor: pointer;
+        border: 4px solid transparent;
+        transition: all 300ms ease;
+        transform: scale(0);
+    
+    }
+    #button-up:hover{
+        transform: scale(1.1);
+        border-color: rgba(0,0,0,0.1);
+    }
+
+    /* Servicios */
+    .box__servicios{
+        background-color: rgb(208, 236, 236);
+        padding: 0;
+        margin: 1px;
+        border-radius: 4px;
+        margin-top: 5px;
+        border: 1px solid;
+    }
+    .grid__2{
+        display: grid;
+        grid-template-columns: 6fr 1fr;
+    }
+    .serv__up{
+        font-size: 0.8em;
+        padding: 10px 0;
+        
+        padding: 5px;
+    }
+    .grid__3{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+    .serv__items{
+        font-size: 0.6rem;
+        padding: 5px 0;
+        border: 0.1px solid black;
+        text-align: center;
+        background-color: rgb(153, 183, 238);
+        margin: 1px;
+    }
+
+    .grid__4{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        padding: 0;
+        
+    }
+    .serv__cont{
+        font-size: 0.6rem;
+        padding: 5px 0;
+        border: 0.1px solid black;
+        text-align: center;
+        margin: 1px;
+        
+    }
+    
+    .no-act{background-color: red;}
